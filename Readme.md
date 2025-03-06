@@ -1,6 +1,6 @@
 <h1 align="center" id="title">DolpinRef</h1>
 
-<p id="description">A single page DolpinRef built using Laravel React JS Tailwind Postgresql and Inertia JS.</p>
+<p id="description">DolpinRef is to be a tool as a simple project management service.</p>
 
 <h2>🧐 Features</h2>
 
