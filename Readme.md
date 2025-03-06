@@ -1,89 +1,76 @@
-# Ping CRM React
+<h1 align="center" id="title">Laravel Project Management</h1>
 
-A demo application to illustrate how [Inertia.js](https://inertiajs.com/) works with [Laravel](https://laravel.com/) and [React](https://reactjs.org/).
+<p align="center"><img src="https://socialify.git.ci/AntarMukhopadhyaya/laravel-project-management/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-> This is a port of the original [Ping CRM](https://github.com/inertiajs/pingcrm) written in Laravel and Vue.
+<p id="description">A single page project management web application built using Laravel React JS Tailwind Postgresql and Inertia JS.</p>
 
-![](https://raw.githubusercontent.com/liorocks/pingcrm-react/master/screenshot.png)
+<h2>Project Screenshots:</h2>
 
-## Installation
+<blockquote align="center" class="imgur-embed-pub" lang="en" data-id="zfw4MsK"><a href="https://imgur.com/zfw4MsK">View post on imgur.com</a></blockquote>
+<br>
+<blockquote align="center" class="imgur-embed-pub" lang="en" data-id="vKSX6K2"><a href="https://imgur.com/vKSX6K2">View post on imgur.com</a></blockquote>
+ <br>
+<blockquote align="center" class="imgur-embed-pub" lang="en" data-id="kfynNCT"><a href="https://imgur.com/kfynNCT">View post on imgur.com</a></blockquote>
+<br>
+<h2>🧐 Features</h2>
 
-Clone the repo locally:
+Here're some of the project's best features:
 
-```sh
-git clone https://github.com/liorocks/pingcrm-react.git
-cd pingcrm-react
+*   Scalability and Performance
+*   Authentication and Authorization
+*   Interactive User Interface
+*   Single-page Application (SPA) Architecture
+<br >
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the repository</p>
+
+```
+git clone https://github.com/AntarMukhopadhyaya/laravel-project-management
 ```
 
-Install PHP dependencies:
+<p>2. Navigate to the repository directory</p>
 
-```sh
+```
+cd laravel-project-management
+```
+
+<p>3. Run</p>
+
+```
 composer install
 ```
 
-Install NPM dependencies:
+<p>4. Copy .env.example to .env and make the changes accordingly</p>
 
-```sh
-npm install
+<p>5. Run</p>
+
 ```
-
-Build assets:
-
-```sh
-npm run dev
-```
-
-Setup configuration:
-
-```sh
-cp .env.example .env
-```
-
-Generate application key:
-
-```sh
 php artisan key:generate
 ```
 
-Create an SQLite database. You can also use another database (MySQL, Postgres), simply update your configuration accordingly.
+<p>6. Run</p>
 
-```sh
-touch database/database.sqlite
+```
+php artisan migrate --seed
 ```
 
-Run database migrations:
+<p>7. Run</p>
 
-```sh
-php artisan migrate
 ```
-
-Run database seeder:
-
-```sh
-php artisan db:seed
-```
-
-Run artisan server:
-
-```sh
 php artisan serve
 ```
 
-You're ready to go! [Visit Ping CRM](http://127.0.0.1:8000/) in your browser, and login with:
+<p>8. Visit http://localhost:8000</p>
 
-- **Username:** johndoe@example.com
-- **Password:** secret
+  
+  
+<h2>💻 Built with</h2>
 
-## Running tests
+Technologies used in the project:
 
-To run the Ping CRM tests, run:
-
-```
-php artisan test
-```
-
-## Credits
-
-- Original work by Jonathan Reinink (@reinink) and contributors
-- Port to Ruby on Rails by Georg Ledermann (@ledermann)
-- Port to React by Lio (@liorocks)
+*   Laravel
+*   React Js
+*   Tailwind
+*   Postgresql
+*   Inertia Js
