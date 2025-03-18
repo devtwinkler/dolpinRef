@@ -16,7 +16,7 @@ Here're some of the project's best features:
 <p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/softvoyager/dolpinRef
+git clone https://github.com/devtwinkler/dolpinRef
 ```
 
 <p>2. Navigate to the repository directory</p>
